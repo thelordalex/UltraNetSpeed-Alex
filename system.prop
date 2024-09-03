@@ -1,0 +1,44 @@
+
+# System Properties for UltraNetSpeed-Alex
+
+# Network Performance Tweaks
+net.tcp.buffersize.default=4096,87580256960,4096,116584256960
+net.tcp.buffersize.wifi=4096,87380,1048576,4096,16384,110592
+net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
+
+# Wi-Fi Performance Enhancements
+wifi.supplicant_scan_interval=120
+wifi.scan.interval=120
+wifi.wifi.supplicant_scan_interval=120
+
+# 4G/5G Network Tweaks
+ro.ril.enable.a52=1
+ro.ril.enable.a53=1
+ro.ril.fast.dormancy.rule=0
+ro.ril.radio.svn=1
+ro.ril.set.mtu1472=1
+ro.ril.hsxpa=3
+ro.ril.gprsclass=10
+ro.ril.hsdpa.category=10
+ro.ril.hsupa.category=5
+ro.ril.hep=1
+ro.ril.enable.dtm=1
+ro.ril.enable.a53=1
+ro.ril.enabled.5g.prefix=1
+
+# General Performance Enhancements
+net.core.rmem_max=16777216
+net.core.wmem_max=16777216
+net.core.optmem_max=20480
+net.ipv4.tcp_mem=50576 64768 98152
+net.ipv4.tcp_rmem=4096 87380 16777216
+net.ipv4.tcp_wmem=4096 65536 16777216
+net.ipv4.tcp_mtu_probing=1
+
+# Existing Network Settings
+ro.ril.disable.power.collapse=0
+ro.da1.enable=true
+ro.da1.method=false
+Boost.Wi-Fi=True
